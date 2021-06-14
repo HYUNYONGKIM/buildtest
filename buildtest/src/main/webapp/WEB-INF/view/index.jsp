@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<c:set var="b" value="${a }"/>
-<h1>${b}안녕하세요 여려분!!</h1>
+<%-- <c:set var="b" value="${a}"/> --%>
+<h1>${a} 안녕하세요 여려분!! ${b}</h1>
 </body>
 </html>
